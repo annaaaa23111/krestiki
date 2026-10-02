@@ -1,1 +1,17 @@
+using System;
 
+namespace TicTacToe
+{
+    class Program
+    {
+        static char[,] board = new char[3, 3];
+        static char player = 'X';
+        static int moves = 0;
+
+        static void Main()
+        {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.WriteLine("=== КРЕСТИКИ-НОЛИКИ ===");
+        }
+    }
+}
